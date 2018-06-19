@@ -54,7 +54,7 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3          = 11;
 
 // MONEY_SUPPLY - total number coins to be generated
 const uint64_t MONEY_SUPPLY				                           = UINT64_C(500000000000);
-const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 25000;
+const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 10850;
 const size_t ZAWY_DIFFICULTY_V2                              = 0;
 const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION       = 3;
 
@@ -162,12 +162,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "";
 
 const char* const SEED_NODES[] = {
-	"atlantic.bloc.money:2082",
-	"pacific.bloc.money:2082",
-	"baltic.bloc.money:2082",
-	"europe.bloc.money:2082",
-	"asia.bloc.money:2082"
-		
+  "testnet1.bloc.money:2082",
+  "testnet2.bloc.money:2082" 		
 };
 
 struct CheckpointData {
@@ -175,15 +171,7 @@ struct CheckpointData {
   const char* blockId;
 };
 
-const CheckpointData CHECKPOINTS[] = {
-	{300, "a20d4c204aa5c01055f80504e8f802c59e8d3e7f8d058884bf8eee18d9b136e8"},
-	{800, "2140edb727df761f6e2a0f1a07a86e6f9c9997c2a2a6ee59d94bdc785c4d76ea"},
-	{1300, "6e2b2a587fb16b0fe6c7c03de69f9060137ad218a941204ad19b832fce8c008f"},
-	{2000, "4d7241ab61013ca26d1e29b34340e743ca6ca2670346704da12f4edb3343aa25"},
-	{3000, "c6e5e6730714bb03b9ade5cc1ed9c4c221611b395c7140a7b1e2886165f464c2"},
-	{5000, "9474c4e9cceaa0590db12ab3aec16aa75608a9626fded74c5f77bee6e29eb20e"},
-	{8000, "5daf3f64c60eba8fd907d2e9c9bb33d88a3fd986eb31bdec9c474a1c8839a687"}};
+const CheckpointData CHECKPOINTS[] = { };
 
 }
-
 #define ALLOW_DEBUG_COMMANDS
