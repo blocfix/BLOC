@@ -58,7 +58,7 @@ const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 10850;
 const size_t ZAWY_DIFFICULTY_V2                              = 0;
 const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION       = 3;
 
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 25000;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 13500;
 const uint64_t DIFFICULTY_WINDOW_V3                          = 60;
 const uint64_t DIFFICULTY_BLOCKS_COUNT_V3                    = DIFFICULTY_WINDOW_V3 + 1;
 
@@ -113,7 +113,7 @@ const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                	= 0;
 const uint32_t UPGRADE_HEIGHT_V2                             	= 50;
 const uint32_t UPGRADE_HEIGHT_MAX_BLOCK_SIZE			            = 65000;
 const uint32_t UPGRADE_HEIGHT_V3                             	= 100;
-const uint32_t UPGRADE_HEIGHT_V4                             =  25000;
+const uint32_t UPGRADE_HEIGHT_V4                             =  13500;
 const unsigned UPGRADE_VOTING_THRESHOLD                      	= 90;               // percent
 const uint32_t UPGRADE_VOTING_WINDOW                         	= EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
 const uint32_t UPGRADE_WINDOW                                	= EXPECTED_NUMBER_OF_BLOCKS_PER_DAY;  // blocks
